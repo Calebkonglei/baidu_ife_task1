@@ -1,0 +1,94 @@
+*{
+	margin:0;padding:0;
+}
+table th{
+background-color: #000;
+color:#fff;
+}
+.table-mark{
+	color:red;
+
+}
+table tr:nth-child(2n+1){
+	background-color: #ccc;
+}
+
+form{
+	margin:20px;
+}
+form input{
+	width:100px;
+	height:20px;
+	line-height: 20px;
+	transition:width 0.5s;
+	-webkit-transition:width 0.5s;
+}
+form input:focus{
+	width:200px;
+}
+
+.banner{
+    position: relative;
+    width: 300px;
+    height:150px;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+ul{
+    width: 300%;
+    height: 100%;
+    position: relative;
+    left: 0;
+    transition: 0.5s left;
+    -webkit-transition: 0.5s left;
+    font-size: 0;
+    word-spacing: 0;
+    letter-spacing: 0;
+}
+ul li{
+    display: inline-block;
+    list-style: none;
+    width: 300px;
+    height: 150px;
+}
+li:nth-child(1){
+    background-color: red;
+}
+li:nth-child(2){
+    background-color: blue;
+}
+li:nth-child(3){
+    background-color: yellow;
+
+}
+
+.banner-controller{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.banner-controller a{
+    text-decoration: none;
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    font-size: 16px;
+    background-color: #fff;
+    color:#000;
+    text-align: center;
+
+}
+
+
+#img1:target~ul{
+    left: 0
+}
+#img2:target~ul{
+    left: -100%;
+}
+#img3:target~ul{
+    left: -200%;
+}
