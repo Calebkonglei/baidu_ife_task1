@@ -7,3 +7,5 @@
 #任务十：Flexbox 布局练习
 第十项任务效果：http://dannisi.github.io/baidu_ife_task1/task10/
 csdn博客总结：http://blog.csdn.net/konglei1996/article/details/50931040
+#任务十二：学习CSS 3的新特性
+第十二项任务效果：http://dannisi.github.io/baidu_ife_task1/
